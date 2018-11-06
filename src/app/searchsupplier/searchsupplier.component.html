@@ -1,0 +1,154 @@
+<div class="col">
+  <div class="title-container">
+    <div class="row">
+      <div class="col">
+        <h6 class="page-title">SEARCH SUPPLIERS</h6>
+      </div>
+      <div class="col">
+        <div class="pull-right p-2">
+          <button type="button" class="btn defaultButton"><i class="fa fa-search"></i> Back to previous page</button>
+        </div>
+      </div>
+      </div>
+
+  </div>
+</div>
+<form class="search-supplier-form">
+<div class="col">
+<div class="row">
+  <div class="col-sm-3">
+    <div class="form-group">
+      <label for="supplierName">Supplier Name</label>
+      <input type="name" class="form-control" id="supplierName" aria-describedby="" placeholder="New Hampshire Motel">
+
+    </div>
+  </div>
+  <div class="col-sm-2">
+    <div class="form-group">
+      <label for="supplierRef">Supplier Ref</label>
+      <input type="ref" class="form-control" id="supplierRef" aria-describedby="" placeholder="">
+
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="form-group">
+      <label for="cdr">Country / Destination / Resort</label>
+      <input type="location" class="form-control" id="cdr" aria-describedby="" placeholder="">
+
+    </div>
+  </div>
+  <div class="col-sm-2">
+    <div class="form-group">
+      <label for="supplierStatus">Supplier Status</label>
+      <div class="input-group mb-2 mr-sm-4">
+        <select class="form-control dropdown_arrow_bg" id="supplierStatus">
+          <option></option>
+          <option></option>
+        </select>
+        <div class="input-group-prepend">
+          <div class="input-group-text custom-color-drtopdown"><img src="../../assets/Images/arrow-down.png"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-2">
+    <div class="form-group">
+      <label for="complianceStatus">Compliance Status</label>
+      <div class="input-group mb-2 mr-sm-4">
+        <select class="form-control" id="complianceStatus">
+          <option></option>
+          <option></option>
+        </select>
+        <div class="input-group-prepend">
+          <div class="input-group-text custom-color-drtopdown"><img src="../../assets/Images/arrow-down.png"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row">
+    <div class="col-sm-3 mb-3">
+      <div class="form-group">
+        <label for="accommodationID">Accommodation ID</label>
+        <input type="accommodationid" class="form-control" id="accommodationID" aria-describedby="" placeholder="">
+
+      </div>
+    </div>
+    <div class="col-sm-3  mb-3">
+      <div class="form-group">
+        <label for="accommodationname">Accommodation Name</label>
+        <input type="" class="form-control" id="accommodationname" aria-describedby="" placeholder="">
+      </div>
+    </div>
+    <div class="col-sm-3  mb-3">
+      <div class="form-group">
+        <label for="accommodationchain">Accommodation Chain</label>
+        <input type="" class="form-control" id="accommodationchain" aria-describedby="" placeholder="">
+
+      </div>
+    </div>
+    <div class="col-sm-3  mb-3">
+      <div class="form-group">
+        <label for="negotiationgrouplabel">Negotiation group label</label>
+        <input type="" class="form-control" id="negotiationgrouplabel" aria-describedby="" placeholder="">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="col">
+    <div class="row">
+      <div class="col-md-3 mb-3">
+        <div class="form-group">
+          <button type="button" class="btn btn-block text-left disabled" (click)="searchSupplier()"><i class="fa fa-search"></i> Search Suppliers</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+<div class="col">
+  <div class="bottom-border-shadow col-md-12"></div>
+</div>
+<div class="col" *ngIf="show">
+  <div class="table-responsive-sm">
+    <table class="table table-hover table-bordered">
+      <thead>
+      <tr>
+        <th>Supplier Name
+          <i class="fa fa-fw fa-sort" (click)="sortSearch('Supplier Name')"></i>
+        </th>
+        <th>Supplier Ref
+          <i class="fa fa-fw fa-sort" (click)="sortSearch('Supplier Ref')"></i>
+        </th>
+        <th>Country
+          <i class="fa fa-fw fa-sort" (click)="sortSearch('Country')"></i>
+        </th>
+        <th>Registration
+          <i class="fa fa-fw fa-sort" (click)="sortSearch('Registration')"></i>
+        </th>
+        <th>Tax Ref
+          <i class="fa fa-fw fa-sort" (click)="sortSearch('Tax Ref')"></i>
+        </th>
+        <th>Supplier Status
+          <i class="fa fa-fw fa-sort" (click)="sortSearch('Supplier Status')"></i>
+        </th>
+        <th>Compliance Status
+          <i class="fa fa-fw fa-sort" (click)="sortSearch('Compliance Status')"></i>
+        </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let supplies of suppliers">
+        <td>{{supplies["Supplier Name"]}}</td>
+        <td>{{supplies["Supplier Ref"]}}</td>
+        <td>{{supplies.Country}}</td>
+        <td>{{supplies.Registration}}</td>
+        <td>{{supplies["Tax Ref"]}}</td>
+        <td>{{supplies["Supplier Status"]}}</td>
+        <td>{{supplies["Compliance Status"]}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

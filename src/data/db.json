@@ -1,0 +1,129 @@
+{
+	"Suppliers": [{
+			"Supplier Name": "Miracke Travel & Tour Ltd",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "Tanzania,United Rep. of ",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Active",
+			"Compliance Status": "Accepted"
+		},
+		{
+			"Supplier Name": "World Wide Paradise Travel Limited",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "Turkey",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Inactive",
+			"Compliance Status": "Non-Viable"
+		},
+		{
+			"Supplier Name": "Vila Gale Brasil-Acttividades Hoteleiras,Ltda",
+			"Supplier Ref": "xxxxxxxxxxx",
+			"Country": "Dominican Republic",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Active",
+			"Compliance Status": "Draft"
+		},
+		{
+			"Supplier Name": "Bulimpex JSC for Hotel Helena Park",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "Netherlands Antilles",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Pending",
+			"Compliance Status": "Valid"
+		},
+		{
+			"Supplier Name": "Sunset Resort Management Ltd",
+			"Supplier Ref": "x-xxxx",
+			"Country": "United Arab Emirates",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "On Hold",
+			"Compliance Status": "On Hold"
+		},
+		{
+			"Supplier Name": "Grand Hotel Lav D.O.O. Hotel Le Meridian Lav Split",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "Dominican Republic",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Active",
+			"Compliance Status": "Do Not Use"
+		},
+		{
+			"Supplier Name": "Medora Hotels and Resorts D.D.",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "Netherlands Antilles",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "On Hold",
+			"Compliance Status": "Draft"
+		},
+		{
+			"Supplier Name": "Aphrodite Hills Property Management Ltd. Residences",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "Tanzania, United Rep. of",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Inactive",
+			"Compliance Status": "Valid"
+		},
+		{
+			"Supplier Name": "Miracke Travel & Tour Ltd",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "United Arab Emirates",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Pending",
+			"Compliance Status": "Accepted"
+		},
+		{
+			"Supplier Name": "Sunset Resort Management Ltd",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "Turkey",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Pending",
+			"Compliance Status": "On Hold"
+		},
+		{
+			"Supplier Name": "World Wide Paradise Travel Limited",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "Dominican Republic",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Inactive",
+			"Compliance Status": "On Hold"
+		},
+		{
+			"Supplier Name": "Grand Hotel Lav D.O.O. Hotel Le Meridian Lav Split",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "Netherlands Antilles",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Pending",
+			"Compliance Status": "Non-Viable"
+		},
+		{
+			"Supplier Name": "Medora Hotels and Resorts D.D.",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "Tanzania,United Rep. of ",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "Pending",
+			"Compliance Status": "Do Not Use"
+		},
+		{
+			"Supplier Name": "Aphrodite Hills Property Management Ltd. Residences",
+			"Supplier Ref": "xxxxxxx",
+			"Country": "United Arab Emirates",
+			"Registration": "xxxxxxx",
+			"Tax Ref": "xxxxxxx",
+			"Supplier Status": "On Hold",
+			"Compliance Status": "Accepted"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+@import "~src/styles.scss";
+.task-cards{
+  width: 100%;
+  height: 200px;
+  float: left;
+  background-image: linear-gradient(to bottom, #6a90dd, #6a90dd), linear-gradient(to top, $white, $white);
+  padding: 15px 20px;
+  margin-top: 25px;
+  .task-title{
+    a{
+      text-decoration: none;
+      span{
+        color: $white;
+      }
+    }
+  }
+  .task-content{
+    padding: 40px 15px;
+    i{
+      text-align: center;
+      width: 100%;
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "styles/colors";
+/*@import "styles/buttons";*/
+@import "~node_modules/bootstrap/scss/bootstrap";
+@import "~src/assets/fonts/tuitype/stylesheet.css";
+
+body{
+  font-family: tuityperegular !important;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.title-container{
+  height: 60px;
+  border: solid $border-width $lightash1;
+  background-color: $lightash;
+  .page-title {
+    color: $blue4;
+    font-size: 16px;
+    padding: 20px;
+    margin: 0;
+  }
+}
+.bottom-border-shadow{
+  box-shadow: 2px 3px #eaeaea;
+}
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 1px 0 0 0.2rem rgba(220, 240, 255, 0.25);
+}
+button {
+  outline: none;
+  background-color: $green;
+  color: white;
+}
+.disabled {
+  outline: none;
+  background-color: #d5d5d5;
+  color: white;
+}
+

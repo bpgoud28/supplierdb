@@ -1,0 +1,1256 @@
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class^='destimoGlyph'],
+[class*=' destimoGlyph'] {
+	font-family: 'destimo';
+}
+
+.destimoGlyphAge:before {
+	content: '\e600';
+}
+
+.destimoGlyphCurrencyEuro:before {
+	content: '\e601';
+}
+
+.destimoGlyphClock:before {
+	content: '\e602';
+}
+
+.destimoGlyphReservation:before {
+	content: '\e603';
+}
+
+.destimoGlyphCalendar:before {
+	content: '\e604';
+}
+
+.destimoGlyphLang:before {
+	content: '\e605';
+}
+
+.destimoGlyphSearch:before {
+	content: '\e606';
+}
+
+.destimoGlyphReject:before {
+	content: '\e607';
+}
+
+.destimoGlyphRefresh:before {
+	content: '\e608';
+}
+
+.destimoGlyphQuestion:before {
+	content: '\e609';
+}
+
+.destimoGlyphPrint:before {
+	content: '\e60a';
+}
+
+.destimoGlyphPlus:before {
+	content: '\e60b';
+}
+
+.destimoGlyphPercent:before {
+	content: '\e60c';
+}
+
+.destimoGlyphNetwork:before {
+	content: '\e60d';
+}
+
+.destimoGlyphMinus:before {
+	content: '\e60e';
+}
+
+.destimoGlyphList:before {
+	content: '\e60f';
+}
+
+.destimoGlyphInfo:before {
+	content: '\e610';
+}
+
+.destimoGlyphHome:before {
+	content: '\e611';
+}
+
+.destimoGlyphFolder:before {
+	content: '\e612';
+}
+
+.destimoGlyphEuro:before {
+	content: '\e613';
+}
+
+.destimoGlyphEdit:before {
+	content: '\e614';
+}
+
+.destimoGlyphDownload:before {
+	content: '\e615';
+}
+
+.destimoGlyphClose:before {
+	content: '\e616';
+}
+
+.destimoGlyphChevronRight:before {
+	content: '\e617';
+}
+
+.destimoGlyphChevronLeft:before {
+	content: '\e618';
+}
+
+.destimoGlyphChevronDown:before {
+	content: '\e619';
+}
+
+.destimoGlyphCancel:before {
+	content: '\e61a';
+}
+
+.destimoGlyphAlternative:before {
+	content: '\e96b';
+}
+
+.destimoGlyphBed:before {
+	content: '\e61b';
+}
+
+.destimoGlyphBars:before {
+	content: '\e61c';
+}
+
+.destimoGlyphAccept:before {
+	content: '\e61d';
+}
+
+.destimoGlyphTag:before {
+	content: '\e61e';
+}
+
+.destimoGlyphSpinner:before {
+	content: '\e620';
+}
+
+.destimoGlyph-new_report:before {
+	content: '\e61f';
+}
+
+.destimoGlyph-view_report:before {
+	content: '\e621';
+}
+
+.destimoGlyph-age:before {
+	content: '\e600';
+}
+
+.destimoGlyph-currencyEuro:before {
+	content: '\e601';
+}
+
+.destimoGlyph-clock:before {
+	content: '\e602';
+}
+
+.destimoGlyph-reservation:before {
+	content: '\e603';
+}
+
+.destimoGlyph-calendar:before {
+	content: '\e604';
+}
+
+.destimoGlyph-lang:before {
+	content: '\e605';
+}
+
+.destimoGlyph-search:before {
+	content: '\e606';
+}
+
+.destimoGlyph-reject:before {
+	content: '\e607';
+}
+
+.destimoGlyph-refresh:before {
+	content: '\e608';
+}
+
+.destimoGlyph-question:before {
+	content: '\e609';
+}
+
+.destimoGlyph-print:before {
+	content: '\e60a';
+}
+
+.destimoGlyph-plus:before {
+	content: '\e60b';
+}
+
+.destimoGlyph-percent:before {
+	content: '\e60c';
+}
+
+.destimoGlyph-network:before {
+	content: '\e60d';
+}
+
+.destimoGlyph-minus:before {
+	content: '\e60e';
+}
+
+.destimoGlyph-list:before {
+	content: '\e60f';
+}
+
+.destimoGlyph-info:before {
+	content: '\e610';
+}
+
+.destimoGlyph-home:before {
+	content: '\e611';
+}
+
+.destimoGlyph-folder:before {
+	content: '\e612';
+}
+
+.destimoGlyph-euro:before {
+	content: '\e613';
+}
+
+.destimoGlyph-edit:before {
+	content: '\e614';
+}
+
+.destimoGlyph-download:before {
+	content: '\e615';
+}
+
+.destimoGlyph-close:before {
+	content: '\e616';
+}
+
+.destimoGlyph-chevronRight:before {
+	content: '\e617';
+}
+
+.destimoGlyph-chevronLeft:before {
+	content: '\e618';
+}
+
+.destimoGlyph-chevronDown:before {
+	content: '\e619';
+}
+
+.destimoGlyph-cancel:before {
+	content: '\e61a';
+}
+
+.destimoGlyph-bed:before {
+	content: '\e61b';
+}
+
+.destimoGlyph-bars:before {
+	content: '\e61c';
+}
+
+.destimoGlyph-accept:before {
+	content: '\e61d';
+}
+
+.destimoGlyph-home4:before {
+	content: '\e900';
+}
+
+.destimoGlyph-home2:before {
+	content: '\e901';
+}
+
+.destimoGlyph-home3:before {
+	content: '\e902';
+}
+
+.destimoGlyph-office:before {
+	content: '\e903';
+}
+
+.destimoGlyph-newspaper:before {
+	content: '\e904';
+}
+
+.destimoGlyph-pencil:before {
+	content: '\e905';
+}
+
+.destimoGlyph-pencil2:before {
+	content: '\e906';
+}
+
+.destimoGlyph-quill:before {
+	content: '\e907';
+}
+
+.destimoGlyph-pen:before {
+	content: '\e908';
+}
+
+.destimoGlyph-blog:before {
+	content: '\e909';
+}
+
+.destimoGlyph-eyedropper:before {
+	content: '\e90a';
+}
+
+.destimoGlyph-droplet:before {
+	content: '\e90b';
+}
+
+.destimoGlyph-paint-format:before {
+	content: '\e90c';
+}
+
+.destimoGlyph-image:before {
+	content: '\e90d';
+}
+
+.destimoGlyph-images:before {
+	content: '\e90e';
+}
+
+.destimoGlyph-camera:before {
+	content: '\e90f';
+}
+
+.destimoGlyph-headphones:before {
+	content: '\e910';
+}
+
+.destimoGlyph-music:before {
+	content: '\e911';
+}
+
+.destimoGlyph-play:before {
+	content: '\e912';
+}
+
+.destimoGlyph-film:before {
+	content: '\e913';
+}
+
+.destimoGlyph-video-camera:before {
+	content: '\e914';
+}
+
+.destimoGlyph-dice:before {
+	content: '\e915';
+}
+
+.destimoGlyph-bullhorn:before {
+	content: '\e91a';
+}
+
+.destimoGlyph-connection:before {
+	content: '\e91b';
+}
+
+.destimoGlyph-podcast:before {
+	content: '\e91c';
+}
+
+.destimoGlyph-feed:before {
+	content: '\e91d';
+}
+
+.destimoGlyph-mic:before {
+	content: '\e91e';
+}
+
+.destimoGlyph-book:before {
+	content: '\e91f';
+}
+
+.destimoGlyph-books:before {
+	content: '\e920';
+}
+
+.destimoGlyph-library:before {
+	content: '\e921';
+}
+
+.destimoGlyph-file-text:before {
+	content: '\e922';
+}
+
+.destimoGlyph-profile:before {
+	content: '\e923';
+}
+
+.destimoGlyph-file-empty:before {
+	content: '\e924';
+}
+
+.destimoGlyph-files-empty:before {
+	content: '\e925';
+}
+
+.destimoGlyph-file-text2:before {
+	content: '\e926';
+}
+
+.destimoGlyph-file-picture:before {
+	content: '\e927';
+}
+
+.destimoGlyph-file-music:before {
+	content: '\e928';
+}
+
+.destimoGlyph-file-play:before {
+	content: '\e929';
+}
+
+.destimoGlyph-file-video:before {
+	content: '\e92a';
+}
+
+.destimoGlyph-file-zip:before {
+	content: '\e92b';
+}
+
+.destimoGlyph-copy:before {
+	content: '\e92c';
+}
+
+.destimoGlyph-paste:before {
+	content: '\e92d';
+}
+
+.destimoGlyph-stack:before {
+	content: '\e92e';
+}
+
+.destimoGlyph-folder2:before {
+	content: '\e92f';
+}
+
+.destimoGlyph-folder-open:before {
+	content: '\e930';
+}
+
+.destimoGlyph-folder-plus:before {
+	content: '\e931';
+}
+
+.destimoGlyph-folder-minus:before {
+	content: '\e932';
+}
+
+.destimoGlyph-folder-download:before {
+	content: '\e933';
+}
+
+.destimoGlyph-folder-upload:before {
+	content: '\e934';
+}
+
+.destimoGlyph-price-tag:before {
+	content: '\e935';
+}
+
+.destimoGlyph-price-tags:before {
+	content: '\e936';
+}
+
+.destimoGlyph-barcode:before {
+	content: '\e937';
+}
+
+.destimoGlyph-qrcode:before {
+	content: '\e938';
+}
+
+.destimoGlyph-ticket:before {
+	content: '\e939';
+}
+
+.destimoGlyph-cart:before {
+	content: '\e93a';
+}
+
+.destimoGlyph-coin-dollar:before {
+	content: '\e93b';
+}
+
+.destimoGlyph-coin-euro:before {
+	content: '\e93c';
+}
+
+.destimoGlyph-coin-pound:before {
+	content: '\e93d';
+}
+
+.destimoGlyph-coin-yen:before {
+	content: '\e93e';
+}
+
+.destimoGlyph-credit-card:before {
+	content: '\e93f';
+}
+
+.destimoGlyph-calculator:before {
+	content: '\e940';
+}
+
+.destimoGlyph-lifebuoy:before {
+	content: '\e941';
+}
+
+.destimoGlyph-phone:before {
+	content: '\e942';
+}
+
+.destimoGlyph-phone-hang-up:before {
+	content: '\e943';
+}
+
+.destimoGlyph-address-book:before {
+	content: '\e944';
+}
+
+.destimoGlyph-envelop:before {
+	content: '\e945';
+}
+
+.destimoGlyph-pushpin:before {
+	content: '\e946';
+}
+
+.destimoGlyph-location:before {
+	content: '\e947';
+}
+
+.destimoGlyph-location2:before {
+	content: '\e948';
+}
+
+.destimoGlyph-compass:before {
+	content: '\e949';
+}
+
+.destimoGlyph-compass2:before {
+	content: '\e94a';
+}
+
+.destimoGlyph-map:before {
+	content: '\e94b';
+}
+
+.destimoGlyph-map2:before {
+	content: '\e94c';
+}
+
+.destimoGlyph-history:before {
+	content: '\e94d';
+}
+
+.destimoGlyph-clock3:before {
+	content: '\e94e';
+}
+
+.destimoGlyph-clock2:before {
+	content: '\e94f';
+}
+
+.destimoGlyph-alarm:before {
+	content: '\e950';
+}
+
+.destimoGlyph-bell:before {
+	content: '\e951';
+}
+
+.destimoGlyph-stopwatch:before {
+	content: '\e952';
+}
+
+.destimoGlyph-calendar2:before {
+	content: '\e953';
+}
+
+.destimoGlyph-printer:before {
+	content: '\e954';
+}
+
+.destimoGlyph-drawer:before {
+	content: '\e95c';
+}
+
+.destimoGlyph-drawer2:before {
+	content: '\e95d';
+}
+
+.destimoGlyph-box-add:before {
+	content: '\e95e';
+}
+
+.destimoGlyph-box-remove:before {
+	content: '\e95f';
+}
+
+.destimoGlyph-download4:before {
+	content: '\e960';
+}
+
+.destimoGlyph-upload:before {
+	content: '\e961';
+}
+
+.destimoGlyph-floppy-disk:before {
+	content: '\e962';
+}
+
+.destimoGlyph-drive:before {
+	content: '\e963';
+}
+
+.destimoGlyph-database:before {
+	content: '\e964';
+}
+
+.destimoGlyph-undo:before {
+	content: '\e965';
+}
+
+.destimoGlyph-redo:before {
+	content: '\e966';
+}
+
+.destimoGlyph-undo2:before {
+	content: '\e967';
+}
+
+.destimoGlyph-redo2:before {
+	content: '\e968';
+}
+
+.destimoGlyph-forward:before {
+	content: '\e969';
+}
+
+.destimoGlyph-reply:before {
+	content: '\e96a';
+}
+
+.destimoGlyph-bubble:before {
+	content: '\e96b';
+}
+
+.destimoGlyph-bubbles:before {
+	content: '\e96c';
+}
+
+.destimoGlyph-bubbles2:before {
+	content: '\e96d';
+}
+
+.destimoGlyph-bubble2:before {
+	content: '\e96e';
+}
+
+.destimoGlyph-bubbles3:before {
+	content: '\e96f';
+}
+
+.destimoGlyph-bubbles4:before {
+	content: '\e970';
+}
+
+.destimoGlyph-user:before {
+	content: '\e971';
+}
+
+.destimoGlyph-users:before {
+	content: '\e972';
+}
+
+.destimoGlyph-user-plus:before {
+	content: '\e973';
+}
+
+.destimoGlyph-user-minus:before {
+	content: '\e974';
+}
+
+.destimoGlyph-user-check:before {
+	content: '\e975';
+}
+
+.destimoGlyph-user-tie:before {
+	content: '\e976';
+}
+
+.destimoGlyph-quotes-left:before {
+	content: '\e977';
+}
+
+.destimoGlyph-quotes-right:before {
+	content: '\e978';
+}
+
+.destimoGlyph-hour-glass:before {
+	content: '\e979';
+}
+
+.destimoGlyph-spinner:before {
+	content: '\e97a';
+}
+
+.destimoGlyph-spinner2:before {
+	content: '\e97b';
+}
+
+.destimoGlyph-spinner3:before {
+	content: '\e97c';
+}
+
+.destimoGlyph-spinner4:before {
+	content: '\e97d';
+}
+
+.destimoGlyph-spinner5:before {
+	content: '\e97e';
+}
+
+.destimoGlyph-spinner6:before {
+	content: '\e97f';
+}
+
+.destimoGlyph-spinner7:before {
+	content: '\e980';
+}
+
+.destimoGlyph-spinner8:before {
+	content: '\e981';
+}
+
+.destimoGlyph-spinner9:before {
+	content: '\e982';
+}
+
+.destimoGlyph-spinner10:before {
+	content: '\e983';
+}
+
+.destimoGlyph-spinner11:before {
+	content: '\e984';
+}
+
+.destimoGlyph-binoculars:before {
+	content: '\e985';
+}
+
+.destimoGlyph-search2:before {
+	content: '\e986';
+}
+
+.destimoGlyph-zoom-in:before {
+	content: '\e987';
+}
+
+.destimoGlyph-zoom-out:before {
+	content: '\e988';
+}
+
+.destimoGlyph-enlarge:before {
+	content: '\e989';
+}
+
+.destimoGlyph-shrink:before {
+	content: '\e98a';
+}
+
+.destimoGlyph-enlarge2:before {
+	content: '\e98b';
+}
+
+.destimoGlyph-shrink2:before {
+	content: '\e98c';
+}
+
+.destimoGlyph-key:before {
+	content: '\e98d';
+}
+
+.destimoGlyph-key2:before {
+	content: '\e98e';
+}
+
+.destimoGlyph-lock:before {
+	content: '\e98f';
+}
+
+.destimoGlyph-unlocked:before {
+	content: '\e990';
+}
+
+.destimoGlyph-wrench:before {
+	content: '\e991';
+}
+
+.destimoGlyph-equalizer:before {
+	content: '\e992';
+}
+
+.destimoGlyph-equalizer2:before {
+	content: '\e993';
+}
+
+.destimoGlyph-cog:before {
+	content: '\e994';
+}
+
+.destimoGlyph-cogs:before {
+	content: '\e995';
+}
+
+.destimoGlyph-hammer:before {
+	content: '\e996';
+}
+
+.destimoGlyph-magic-wand:before {
+	content: '\e997';
+}
+
+.destimoGlyph-aid-kit:before {
+	content: '\e998';
+}
+
+.destimoGlyph-bug:before {
+	content: '\e999';
+}
+
+.destimoGlyph-pie-chart:before {
+	content: '\e99a';
+}
+
+.destimoGlyph-stats-dots:before {
+	content: '\e99b';
+}
+
+.destimoGlyph-stats-bars:before {
+	content: '\e99c';
+}
+
+.destimoGlyph-stats-bars2:before {
+	content: '\e99d';
+}
+
+.destimoGlyph-trophy:before {
+	content: '\e99e';
+}
+
+.destimoGlyph-gift:before {
+	content: '\e99f';
+}
+
+.destimoGlyph-glass:before {
+	content: '\e9a0';
+}
+
+.destimoGlyph-glass2:before {
+	content: '\e9a1';
+}
+
+.destimoGlyph-mug:before {
+	content: '\e9a2';
+}
+
+.destimoGlyph-spoon-knife:before {
+	content: '\e9a3';
+}
+
+.destimoGlyph-leaf:before {
+	content: '\e9a4';
+}
+
+.destimoGlyph-rocket:before {
+	content: '\e9a5';
+}
+
+.destimoGlyph-meter:before {
+	content: '\e9a6';
+}
+
+.destimoGlyph-meter2:before {
+	content: '\e9a7';
+}
+
+.destimoGlyph-hammer2:before {
+	content: '\e9a8';
+}
+
+.destimoGlyph-fire:before {
+	content: '\e9a9';
+}
+
+.destimoGlyph-lab:before {
+	content: '\e9aa';
+}
+
+.destimoGlyph-magnet:before {
+	content: '\e9ab';
+}
+
+.destimoGlyph-bin:before {
+	content: '\e9ac';
+}
+
+.destimoGlyph-bin2:before {
+	content: '\e9ad';
+}
+
+.destimoGlyph-briefcase:before {
+	content: '\e9ae';
+}
+
+.destimoGlyph-airplane:before {
+	content: '\e9af';
+}
+
+.destimoGlyph-truck:before {
+	content: '\e9b0';
+}
+
+.destimoGlyph-road:before {
+	content: '\e9b1';
+}
+
+.destimoGlyph-accessibility:before {
+	content: '\e9b2';
+}
+
+.destimoGlyph-target:before {
+	content: '\e9b3';
+}
+
+.destimoGlyph-shield:before {
+	content: '\e9b4';
+}
+
+.destimoGlyph-power:before {
+	content: '\e9b5';
+}
+
+.destimoGlyph-switch:before {
+	content: '\e9b6';
+}
+
+.destimoGlyph-power-cord:before {
+	content: '\e9b7';
+}
+
+.destimoGlyph-clipboard:before {
+	content: '\e9b8';
+}
+
+.destimoGlyph-tree:before {
+	content: '\e9bc';
+}
+
+.destimoGlyph-cloud:before {
+	content: '\e9c1';
+}
+
+.destimoGlyph-cloud-download:before {
+	content: '\e9c2';
+}
+
+.destimoGlyph-cloud-upload:before {
+	content: '\e9c3';
+}
+
+.destimoGlyph-cloud-check:before {
+	content: '\e9c4';
+}
+
+.destimoGlyph-download2:before {
+	content: '\e9c5';
+}
+
+.destimoGlyph-upload2:before {
+	content: '\e9c6';
+}
+
+.destimoGlyph-download3:before {
+	content: '\e9c7';
+}
+
+.destimoGlyph-upload3:before {
+	content: '\e9c8';
+}
+
+.destimoGlyph-sphere:before {
+	content: '\e9c9';
+}
+
+.destimoGlyph-earth:before {
+	content: '\e9ca';
+}
+
+.destimoGlyph-link:before {
+	content: '\e9cb';
+}
+
+.destimoGlyph-flag:before {
+	content: '\e9cc';
+}
+
+.destimoGlyph-attachment:before {
+	content: '\e9cd';
+}
+
+.destimoGlyph-eye:before {
+	content: '\e9ce';
+}
+
+.destimoGlyph-eye-plus:before {
+	content: '\e9cf';
+}
+
+.destimoGlyph-eye-minus:before {
+	content: '\e9d0';
+}
+
+.destimoGlyph-eye-blocked:before {
+	content: '\e9d1';
+}
+
+.destimoGlyph-bookmark:before {
+	content: '\e9d2';
+}
+
+.destimoGlyph-bookmarks:before {
+	content: '\e9d3';
+}
+
+.destimoGlyph-sun:before {
+	content: '\e9d4';
+}
+
+.destimoGlyph-contrast:before {
+	content: '\e9d5';
+}
+
+.destimoGlyph-brightness-contrast:before {
+	content: '\e9d6';
+}
+
+.destimoGlyph-star-empty:before {
+	content: '\e9d7';
+}
+
+.destimoGlyph-star-half:before {
+	content: '\e9d8';
+}
+
+.destimoGlyph-star-full:before {
+	content: '\e9d9';
+}
+
+.destimoGlyph-heart:before {
+	content: '\e9da';
+}
+
+.destimoGlyph-heart-broken:before {
+	content: '\e9db';
+}
+
+.destimoGlyph-man:before {
+	content: '\e9dc';
+}
+
+.destimoGlyph-woman:before {
+	content: '\e9dd';
+}
+
+.destimoGlyph-man-woman:before {
+	content: '\e9de';
+}
+
+.destimoGlyph-warning:before {
+	content: '\ea07';
+}
+
+.destimoGlyph-notification:before {
+	content: '\ea08';
+}
+
+.destimoGlyph-question2:before {
+	content: '\ea09';
+}
+
+.destimoGlyph-plus2:before {
+	content: '\ea0a';
+}
+
+.destimoGlyph-minus2:before {
+	content: '\ea0b';
+}
+
+.destimoGlyph-info2:before {
+	content: '\ea0c';
+}
+
+.destimoGlyph-cancel-circle:before {
+	content: '\ea0d';
+}
+
+.destimoGlyph-blocked:before {
+	content: '\ea0e';
+}
+
+.destimoGlyph-cross:before {
+	content: '\ea0f';
+}
+
+.destimoGlyph-checkmark:before {
+	content: '\ea10';
+}
+
+.destimoGlyph-checkmark2:before {
+	content: '\ea11';
+}
+
+.destimoGlyph-arrow-up-left:before {
+	content: '\ea31';
+}
+
+.destimoGlyph-arrow-up:before {
+	content: '\ea32';
+}
+
+.destimoGlyph-arrow-up-right:before {
+	content: '\ea33';
+}
+
+.destimoGlyph-arrow-right:before {
+	content: '\ea34';
+}
+
+.destimoGlyph-arrow-down-right:before {
+	content: '\ea35';
+}
+
+.destimoGlyph-arrow-down:before {
+	content: '\ea36';
+}
+
+.destimoGlyph-arrow-down-left:before {
+	content: '\ea37';
+}
+
+.destimoGlyph-arrow-left:before {
+	content: '\ea38';
+}
+
+.destimoGlyph-arrow-up-left2:before {
+	content: '\ea39';
+}
+
+.destimoGlyph-arrow-up2:before {
+	content: '\ea3a';
+}
+
+.destimoGlyph-arrow-up-right2:before {
+	content: '\ea3b';
+}
+
+.destimoGlyph-arrow-right2:before {
+	content: '\ea3c';
+}
+
+.destimoGlyph-arrow-down-right2:before {
+	content: '\ea3d';
+}
+
+.destimoGlyph-arrow-down2:before {
+	content: '\ea3e';
+}
+
+.destimoGlyph-arrow-down-left2:before {
+	content: '\ea3f';
+}
+
+.destimoGlyph-arrow-left2:before {
+	content: '\ea40';
+}
+
+.destimoGlyph-circle-up:before {
+	content: '\ea41';
+}
+
+.destimoGlyph-circle-right:before {
+	content: '\ea42';
+}
+
+.destimoGlyph-circle-down:before {
+	content: '\ea43';
+}
+
+.destimoGlyph-circle-left:before {
+	content: '\ea44';
+}
+
+.destimoGlyph-share2:before {
+	content: '\ea82';
+}
+
+.destimoGlyph-file-pdf:before {
+	content: '\eada';
+}
+
+.destimoGlyph-file-openoffice:before {
+	content: '\eadb';
+}
+
+.destimoGlyph-file-word:before {
+	content: '\eadc';
+}
+
+.destimoGlyph-file-excel:before {
+	content: '\eadd';
+}
+
+.destimoGlyph-libreoffice:before {
+	content: '\eade';
+}
+
+.destimoGlyph-IE:before {
+	content: '\eae7';
+}
+
+.destimoGlyph-tag:before {
+	content: '\e61e';
+}
+
+.destimoGlyph-spinner12:before {
+	content: '\e620';
+}
